@@ -27,6 +27,7 @@ public class Main {
     }
 
     // pow2
+    // 将n个x相乘的On算法改写成O(logn)级别
     private static double pow(double x, int n){
 
         assert n >= 0;
@@ -35,6 +36,7 @@ public class Main {
             return 1.0;
 
         double t = pow(x, n / 2);
+        // 如果n是奇数，这个时候就会因为舍掉一个x，所以要补回来！
         if(n % 2 == 1)
             return x * t * t;
 

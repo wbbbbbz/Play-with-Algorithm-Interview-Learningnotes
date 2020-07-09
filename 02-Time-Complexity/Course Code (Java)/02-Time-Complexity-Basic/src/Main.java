@@ -8,16 +8,16 @@ public class Main {
 
             int n = (int)Math.pow(10, x);
 
-            long startTime = System.currentTimeMillis();
+            long startTime = System.nanoTime();
 
             long sum = 0;
             for( int i = 0 ; i < n ; i ++ )
                 sum += i;
 
-            long endTime = System.currentTimeMillis();
+            long endTime = System.nanoTime();
 
             System.out.println("sum = " + sum);
-            System.out.println("10^" + x + " : " + (endTime - startTime) + " ms");
+            System.out.println("10^" + x + " : " + (endTime - startTime) / Math.pow(10, 6) + " ms");
             System.out.println("");
         }
     }

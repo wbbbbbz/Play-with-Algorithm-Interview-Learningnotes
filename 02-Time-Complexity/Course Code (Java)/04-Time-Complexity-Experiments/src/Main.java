@@ -13,12 +13,12 @@ public class Main {
             int n = (int)Math.pow(2, i);
             Integer[] arr = MyUtil.generateRandomArray(n, 0, 100000000);
 
-            long startTime = System.currentTimeMillis();
+            long startTime = System.nanoTime();
             Integer maxValue = MyAlgorithmTester.findMax(arr, n);
-            long endTime = System.currentTimeMillis();
+            long endTime = System.nanoTime();
 
             System.out.print("data size 2^" + i + " = " + n + "\t");
-            System.out.println("Time cost: " + (endTime - startTime) + " ms");
+            System.out.println("Time cost: " + (endTime - startTime) / Math.pow(10, 6) + " ms");
         }
     }
 }
