@@ -113,7 +113,7 @@
 | 4-2 map的使用 Intersection of Two Arrays II | 350 | [无] |
 | 4-3 set和map不同底层实现的区别 | 349 350 | 136 242 202 290 205 451 |
 | 4-4 使用查找表的经典问题 Two Sum | 1 | 15 18 16 
-| 4-5 灵活选择键值 4Sum II | 454 | 49 |
+| 4-5 灵活选择键值 4Sum II | 454 | 49(未完成) |
 | 4-6 灵活选择键值 Number of Boomerangs | 447 | 149 719 |
 | 4-7 查找表和滑动窗口 Contain Duplicate II | 219 |
 | 4-8 二分搜索树底层实现的顺序性 Contain Duplicate III | 220 | [无] 
@@ -137,7 +137,7 @@
 | 7-2 一个简单的二叉树问题引发的血案 Invert Binary Tree | 226 | 100 101 222 110 |
 | 7-3 注意递归的终止条件 Path Sum | 112 | 111 404 |
 | 7-4 定义递归问题 Binary Tree Path | 257 | 113 129 222 |
-| 7-5 稍复杂的递归逻辑 Path Sum III | 437 | [无] |
+| 7-5 稍复杂的递归逻辑 Path Sum III | 437(未完成) | [无] |
 | 7-6 二分搜索树中的问题 Lowest Common Ancestor of a Binary Search Tree | 783 235 | 98 450 108 230 236 530 |
 | **第八章 递归和回溯法** | | | | |
 | 8-1 树形问题 Letter Combinations of a Phone Number | 17 | [无] 
@@ -146,7 +146,7 @@
 | 8-4 组合问题 Combinations | 77 | [无] |
 | 8-5 回溯法解决组合问题的优化 | 77 | 39 40 216 78 90 401 |
 | 8-6 二维平面上的回溯法 Word Search | 79 | [无] |
-| 8-7 floodfill算法，一类经典问题 Number of Islands | 200 | 130 417 |
+| 8-7 floodfill算法，一类经典问题 Number of Islands | 200 | 130 417(未完成) |
 | 8-8 回溯法是经典人工智能的基础 N Queens | 51 | 52 37 |
 | **第九章 动态规划基础** | | |
 | 9-1 什么是动态规划 | [无] | [无] |
